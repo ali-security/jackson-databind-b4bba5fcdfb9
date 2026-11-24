@@ -1,8 +1,6 @@
 name: Post Coverage Comment
 on:
-  workflow_run:
-    workflows: ["Build and Deploy Snapshot"]
-    types: [completed]
+  workflow_dispatch:
 
 permissions:
   pull-requests: write
